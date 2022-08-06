@@ -1,8 +1,7 @@
 <template>
-  <b-row style="margin-left: 0;margin-right: 0;">
+  <b-row class="mx-0">
     <b-col md="4">
-      <b-img :src="avatar" id="avatar-img" alt="Asaolu Elijah Memoji" @mouseenter="changeAvatar"
-        @mouseleave="changeAvatar" />
+      <b-img :src="avatar" id="avatar-img" class="img-fluid" alt="Ibrahim Ogunbiyi Memoji" />
     </b-col>
 
     <b-col md="8">
@@ -76,7 +75,7 @@ export default {
 
   data() {
     return {
-      avatar: require("@/assets/avatar-1.webp"),
+      avatar: require("@/assets/b.png"),
       // ADD YOUR SOCIAL LINKS HERE 👇
       socialLinks: {
         github: "https://github.com/ibrahim-ogunbiyi",
@@ -120,15 +119,6 @@ export default {
         content: require("@/assets/coding.png")
       }
     ]
-  },
-  methods: {
-    changeAvatar() {
-      if (this.avatar == require("@/assets/avatar-2.webp")) {
-        this.avatar = require("@/assets/avatar-1.webp");
-      } else {
-        this.avatar = require("@/assets/avatar-2.webp");
-      }
-    }
   },
   mounted() {
     this.$nextTick(() => {
