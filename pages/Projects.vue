@@ -83,7 +83,7 @@ export default {
     }
   },
   head: {
-    title: "Recent Projects 💻 - Asaolu Elijah",
+    title: "Recent Projects 💻 - Ibrahim Ogunbiyi",
     meta: [
       {
         hid: "description",
@@ -94,7 +94,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Projects 💻 - Asaolu Elijah"
+        content: "Recent Projects 💻 - Ibrahim Ogunbiyi"
       },
       {
         property: "og:description",
