@@ -75,7 +75,7 @@ export default {
 
   data() {
     return {
-      avatar: require("@/assets/b.png"),
+      avatar: require("@/assets/b.jpg"),
       // ADD YOUR SOCIAL LINKS HERE 👇
       socialLinks: {
         github: "https://github.com/ibrahim-ogunbiyi",
