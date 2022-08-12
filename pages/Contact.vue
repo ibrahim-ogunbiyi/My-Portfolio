@@ -100,7 +100,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "Contact 📧 - Ibrahim Ogunbiyi"
+        content: "Contact 📧 -Ibrahim Ogunbiyi"
       },
       {
         property: "og:description",
