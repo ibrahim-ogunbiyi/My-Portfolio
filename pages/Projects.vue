@@ -49,7 +49,7 @@ export default {
         {
           title: "Car Price Prediction",
           tag: "Regression Model",
-          project_tag: ["Pandas", "NLTK", "Matplotlib & Seaborn", "Plotly", "Catboost"],
+          project_tag: ["Pandas", "NLTK", "Seaborn", "Plotly", "Catboost"],
           description:
             "Built a Model using NLP and CatboostRegressor to Predict the Price of a Car",
           image_cover: require("@/assets/a.jpg"),
