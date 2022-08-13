@@ -49,12 +49,12 @@ export default {
         {
           title: "Car Price Prediction",
           tag: "Regression Model",
-          project_tag: ["Pandas", "Nltk", "Matplotlib & Seaborn", "Plotly", "Catboost"],
+          project_tag: ["Pandas", "NLTK", "Matplotlib & Seaborn", "Plotly", "Catboost"],
           description:
             "Built a Model using NLP and CatboostRegressor to Predict the Price of a Car",
           image_cover: require("@/assets/a.jpg"),
-          github_url: "https://github.com/AsaoluElijah/qrcode",
-          link: "https://asaoluelijah.github.io/qrcode/"
+          github_url: "https://github.com/ibrahim-ogunbiyi/Car-Price-prediction",
+          link: "https://github.com/ibrahim-ogunbiyi/Car-Price-prediction"
         },
         {
           title: "Customer Personality EDA",
@@ -70,7 +70,7 @@ export default {
         {
           title: "Chronic Kidney Disease (CKD) ",
           tag: "Prediction of Chronic Disease Infection",
-          project_tag: ["Pandas", "Sklearn", "Matplotlib & Seaborn"],
+          project_tag: ["Pandas", "Sklearn", "Matplotlib & Seaborn", "Streamlit"],
           description:
             "Performed Exloratory Data Analysis and Build a Predictive Model Using Random Forest to help Classify whether a Patient has CKD or not.",
           image_cover: require("@/assets/Ckd.jpg"),
