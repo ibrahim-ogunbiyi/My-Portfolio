@@ -46,6 +46,16 @@ export default {
     return {
       tagVariants: ["primary", "success", "warning", "info", "dark"],
       projects: [
+      {
+          title: "Twitter Election Sentiment Analysis",
+          tag: "Sentiment Analysis",
+          project_tag: ["Pandas", "NLTK", "Power BI", "Word Cloud", "TextBlob", "Emot", "Snscrape"],
+          description:
+            "Analysis of People Conversation on Twitter For the Forth Coming Election",
+          image_cover: require("@/assets/flag.jpg"),
+          github_url: "https://github.com/ibrahim-ogunbiyi/Election-Sentiment-Analysis",
+          link: "https://medium.com/@ibrahimogunbiyi/election-sentiment-analysis-5de602c04936"
+        },
         {
           title: "Car Price Prediction",
           tag: "Regression Model",
